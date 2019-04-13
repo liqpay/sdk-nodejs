@@ -1,0 +1,27 @@
+{
+  "name": "sdk-nodejs",
+  "version": "0.1.0",
+  "description": "LiqPay SDK-NodeJS",
+  "main": "lib/liqpay.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rostag/sdk-nodejs.git"
+  },
+  "keywords": [
+    "liqpay",
+    "nodejs",
+    "sdk"
+  ],
+  "author": "Rostyslav Siryk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rostag/sdk-nodejs/issues"
+  },
+  "homepage": "https://github.com/rostag/sdk-nodejs#readme"
+}
