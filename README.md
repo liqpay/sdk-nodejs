@@ -3,4 +3,4 @@ sdk-nodejs
 
 LiqPay SDK-NodeJS
 
-Documentation https://www.liqpay.com/ru/doc
+Documentation https://www.liqpay.ua/documentation/ru
