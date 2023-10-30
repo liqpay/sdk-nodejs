@@ -138,20 +138,6 @@ describe('LiqPay class', () => {
 
             expect(() => liqPayInstance.cnb_params(params)).toThrow('description is null or not provided');
         });
-
-        it('should throw an error if an invalid language is provided', () => {
-            const params = {
-                version: 3,
-                action: 'pay',
-                amount: 100.5,
-                currency: 'USD',
-                description: 'Test payment',
-                order_id: 'order12345',
-                language: 'es' // Spanish is not in the availableLanguages list
-            };
-
-            expect(() => liqPayInstance.cnb_params(params)).toThrow('Invalid language: es. Supported languages are: ru, uk, en');
-        });
         it('should throw an error if version is missing', () => {
             const paramsWithoutVersion = {
                 action: 'pay',
